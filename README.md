@@ -1,2 +1,4 @@
-# is-2026-equipo1-proyecto
-Práctica 1 de Ingeniería de Software - Entorno colaborativo con Git, GitHub y Kanban
+# Ingeniería de Software
+
+## Práctica No. 1
+### Configuración de Entorno Colaborativo con Git/GitHub y Tableros Kanban
