@@ -1,25 +1,98 @@
 # ANÁLISIS DEL CICLO DE VIDA Y GESTIÓN DE RIESGOS
 
-## 1. Mapeo de Fases Clásicas (Modelo en Cascada / Incremental)
+## 1. Requerimientos y Análisis
 
-1. **Requerimientos y Análisis:** Definición del problema, objetivos, actores, alcance y requerimientos del Sistema de Gestión de Ventas e Inventario. Se generará la documentación correspondiente al análisis del sistema.
+**Periodo estimado:** 05/10/2026 - 09/10/2026
 
-2. **Diseño de Arquitectura y Base de Datos:** Diseño de la arquitectura del sistema, módulos principales y estructura de la base de datos. Se definirán las entidades, relaciones y componentes necesarios para el funcionamiento del sistema.
+En esta fase se define el problema, los objetivos, los actores, el alcance y los requerimientos principales del Sistema de Gestión de Ventas e Inventario (SGVI).
 
-3. **Implementación / Codificación:** Desarrollo del sistema utilizando Python con Flask, HTML, CSS, JavaScript y MySQL. Se implementarán los módulos de usuarios, productos, clientes, ventas e inventario.
+**Entregables:**
+- Caso de estudio.
+- Definición del problema.
+- Objetivos generales y específicos.
+- Identificación de actores.
+- Alcance y límites.
+- Requerimientos iniciales.
 
-4. **Pruebas y Verificación:** Realización de pruebas funcionales y de integración para verificar el correcto funcionamiento de los módulos, las validaciones de datos y las operaciones de ventas e inventario.
+## 2. Diseño de Arquitectura y Base de Datos
 
-5. **Mantenimiento y Evolución:** Corrección de errores, aplicación de mejoras y actualización de funcionalidades conforme se identifiquen nuevas necesidades durante el desarrollo y uso del sistema.
+**Periodo estimado:** 12/10/2026 - 16/10/2026
 
-## 2. Modelo de Desarrollo
+Se define la arquitectura general del sistema, los módulos principales y la estructura de la base de datos.
 
-El proyecto utilizará una estructura por fases para organizar las actividades del desarrollo y entregas incrementales para implementar las funcionalidades de manera progresiva.
+**Módulos considerados:**
+- Usuarios.
+- Productos.
+- Categorías.
+- Clientes.
+- Ventas.
+- Inventario.
 
-Las funcionalidades se desarrollarán por incrementos, permitiendo revisar y verificar cada módulo antes de continuar con las siguientes funcionalidades.
+**Entregables:**
+- Diseño de arquitectura.
+- Modelo de base de datos.
+- Entidades y relaciones.
+- Estructura inicial de módulos.
 
-## 3. Aplicación al Proyecto
+## 3. Implementación / Codificación
 
-Para el Sistema de Gestión de Ventas e Inventario se propone desarrollar inicialmente los módulos de usuarios, productos, clientes, ventas e inventario.
+**Periodo estimado:** 19/10/2026 - 30/10/2026
 
-Cada incremento permitirá agregar y verificar nuevas funcionalidades hasta completar el sistema definido dentro del alcance del proyecto.
+Se desarrolla el sistema utilizando las tecnologías definidas para el proyecto.
+
+**Tecnologías:**
+- Python.
+- Flask.
+- HTML.
+- CSS.
+- JavaScript.
+- MySQL.
+
+La implementación se realizará de forma incremental, desarrollando y verificando los módulos progresivamente.
+
+**Entregables:**
+- Módulo de usuarios.
+- Módulo de productos.
+- Módulo de clientes.
+- Módulo de ventas.
+- Módulo de inventario.
+
+## 4. Pruebas y Verificación
+
+**Periodo estimado:** 02/11/2026 - 06/11/2026
+
+Se realizan pruebas funcionales y de integración para verificar el correcto funcionamiento del sistema.
+
+**Estrategia de pruebas:**
+- Validación de datos.
+- Pruebas funcionales.
+- Pruebas de integración.
+- Pruebas de operaciones de ventas.
+- Pruebas de movimientos de inventario.
+
+**Entregables:**
+- Resultados de pruebas.
+- Corrección de errores encontrados.
+- Verificación de módulos integrados.
+
+## 5. Mantenimiento y Evolución
+
+**Periodo estimado:** A partir del 09/11/2026
+
+Se realizan correcciones, mejoras y actualizaciones después de la implementación inicial.
+
+**Estrategia:**
+- Corrección de errores.
+- Mejoras funcionales.
+- Actualización de módulos.
+- Revisión periódica del sistema.
+
+## Modelo de ciclo de vida utilizado
+
+El proyecto combina una estructura por fases con entregas incrementales. Primero se establecen los requerimientos y el diseño general, posteriormente se implementan los módulos de forma progresiva.
+
+Cada módulo será revisado y verificado antes de continuar con las siguientes funcionalidades.
+
+## Aplicación al proyecto
+
+El sistema comenzará con los módulos de usuarios, productos, clientes, ventas e inventario. Cada incremento incorporará nuevas funcionalidades y permitirá verificar el funcionamiento de los módulos desarrollados.
