@@ -1,5 +1,11 @@
 # GESTIÓN DE RIESGOS DEL PROYECTO
 
+## Fundamento: Modelo en Espiral de Boehm
+
+De acuerdo con Sommerville (2011, Cap. 2), el Modelo en Espiral de Boehm organiza el proceso de software en ciclos y dedica en cada vuelta un sector explícito a la evaluación y reducción de riesgos: se identifican los riesgos, se analizan y se definen acciones para mitigarlos antes de continuar con el desarrollo y la planificación de la siguiente vuelta.
+
+En el SGVI se aplica este principio mediante la siguiente matriz. Al inicio de cada incremento se revisan los riesgos, se actualiza su probabilidad e impacto y se ajustan las estrategias de mitigación.
+
 ## 1. Matriz de Evaluación de Riesgos
 
 | ID | Descripción del Riesgo | Probabilidad | Impacto | Estrategia de Mitigación |

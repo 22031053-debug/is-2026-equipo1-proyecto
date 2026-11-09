@@ -1,31 +1,18 @@
-# Checklist de Calidad
+## Descripción de los Cambios
 
-## Estándares de codificación
+- [ ] Explicación de la funcionalidad o documento agregado.
 
-- [ ] El código sigue los estándares de codificación establecidos.
-- [ ] Los nombres de variables, funciones y clases son claros y significativos.
+## Lista de Verificación de Calidad (Sommerville Cap. 24)
 
-## Análisis estático
+- [ ] **Estándares de Codificación:** El código o documento cumple con las reglas de estilo del equipo.
+- [ ] **Análisis Estático:** Se ejecutó el Linter (`flake8`) y no presenta advertencias ni errores.
+- [ ] **Fallas de Datos e Interfaz:** Se verificó que todas las variables están inicializadas y los parámetros coinciden.
+- [ ] **Excepciones:** Se verificó que no hay bloques de código expuestos a caídas sin control de errores.
+- [ ] **Documentación:** Se actualizaron o crearon los archivos `.md` correspondientes.
 
-- [ ] Se ejecutó Flake8 sobre el proyecto.
-- [ ] No existen errores o advertencias pendientes.
+## Revisión entre Pares (Peer Review)
 
-## Fallas de datos e interfaz
+- **Revisado por:** @[UsuarioDelCompañero]
+- **Estado:** Aprobado para integración en `main`.
 
-- [ ] Se validaron las entradas y datos utilizados por el sistema.
-- [ ] Se verificó que los cambios no generen problemas en la interfaz.
-
-## Manejo de excepciones
-
-- [ ] Las operaciones que pueden generar errores tienen manejo de excepciones.
-- [ ] No se utilizan capturas genéricas innecesarias.
-
-## Documentación
-
-- [ ] El cambio está documentado cuando es necesario.
-- [ ] La documentación relacionada fue actualizada.
-
-## Revisión entre pares
-
-- [ ] El Pull Request fue revisado por otro integrante.
-- [ ] Los comentarios de la revisión fueron atendidos.
+> Si el proyecto se desarrolla de forma individual, indicar "Revisión independiente pendiente: proyecto individual" en lugar de un revisor, y documentar la autorrevisión realizada.

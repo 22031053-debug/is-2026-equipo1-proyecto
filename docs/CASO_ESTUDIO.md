@@ -42,3 +42,5 @@ Además, la falta de información centralizada dificulta identificar los product
   - Desarrollo de una aplicación móvil.
   - Integración con servicios externos de facturación.
   - Implementación de inteligencia artificial avanzada.
+  - Integración con plataformas externas de comercio electrónico.
+  - Administración de múltiples sucursales.

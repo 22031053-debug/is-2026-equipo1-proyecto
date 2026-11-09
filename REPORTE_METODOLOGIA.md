@@ -1,4 +1,8 @@
-# Reporte Metodológico — Sistema de Gestión de Ventas e Inventario (SGVI)
+# Reporte Técnico de Selección y Justificación Metodológica
+
+**Asignatura:** Ingeniería de Software | **Unidad 1:** Cierre Sumativo  
+**Proyecto Final:** Sistema de Gestión de Ventas e Inventario (SGVI)  
+**Equipo de Desarrollo:** Equipo 1 (Cristian Maldonado, desarrollo individual) | **Fecha:** 11/10/2026
 
 ## 1. Caracterización del sistema
 
@@ -24,7 +28,7 @@ Para reducir estos riesgos se utilizarán validaciones de entrada, pruebas, cont
 
 ### 1.4 Experiencia técnica
 
-El proyecto utilizará Visual Studio Code como entorno de trabajo, Python como lenguaje previsto para el desarrollo, Git para el control de versiones y GitHub para administrar el repositorio, los Issues, las ramas y los Pull Requests. Flake8 se utilizará para revisar el estilo y la calidad del código Python.
+El proyecto utilizará Visual Studio Code como entorno de trabajo, Python con el framework Flask como tecnología prevista para el desarrollo, HTML, CSS y JavaScript para la interfaz, MySQL como gestor de base de datos, Git para el control de versiones y GitHub para administrar el repositorio, los Issues, las ramas y los Pull Requests. Flake8 se utilizará para revisar el estilo y la calidad del código Python.
 
 ### 1.5 Participación del cliente
 
@@ -38,6 +42,9 @@ Se comparan tres alternativas: el modelo Cascada/Espiral, Scrum/XP y un enfoque 
 |---|---|---|---|
 | Organización del trabajo | Fases definidas y ciclos de análisis de riesgos | Iteraciones cortas y backlog priorizado | Incrementos pequeños con planificación y seguimiento |
 | Adaptación a cambios | Los cambios pueden requerir revisar fases anteriores | Los cambios se incorporan al backlog | Se permiten ajustes entre incrementos |
+| Documentación exigida | Formal y exhaustiva por etapa | Mínima suficiente (historias de usuario) | Documentos base (SRS, UML) más historias de usuario por incremento |
+| Participación del cliente | Puntos fijos de revisión | Continua por Sprint | Validación de criterios de aceptación al cierre de cada incremento |
+| Velocidad de entrega | Software al final del ciclo | Incrementos funcionales cortos | Incrementos de dos semanas con funcionalidades verificables |
 | Gestión de requisitos | Se documentan principalmente al inicio y se refinan según el modelo | Las historias de usuario y sus criterios se revisan continuamente | Se documentan historias y criterios de aceptación antes de cada incremento |
 | Gestión de riesgos | El modelo Espiral enfatiza el análisis de riesgos | Se identifican problemas durante las iteraciones | Se registran riesgos y se verifican durante cada incremento |
 | Calidad del software | Depende de las actividades de verificación definidas | XP promueve pruebas frecuentes y retroalimentación | Se combinan criterios de calidad, pruebas y revisión de cambios |
@@ -82,6 +89,11 @@ Se propone organizar el trabajo en ciclos de dos semanas. Esta duración es una 
 | `PARADIGMA.md` | Registrar el enfoque de trabajo, las herramientas y los procedimientos. |
 | `CALIDAD.md` | Establecer atributos de calidad, métricas y convenciones. |
 | `REPORTE_METODOLOGIA.md` | Consolidar el análisis y la justificación metodológica. |
+| `FACTIBILIDAD.md` y `CRONOGRAMA.md` | Evaluar la viabilidad del proyecto y planificar sus actividades. |
+| `SRS_IEEE830.md` | Especificar los requisitos del software bajo el estándar IEEE 830. |
+| Diagramas UML | Modelar casos de uso y clases del sistema (Unidad 2). |
+| Código fuente | Implementar los módulos del SGVI de forma incremental. |
+| Manuales técnicos y de usuario | Documentar la instalación, operación y mantenimiento del sistema. |
 | GitHub Issues y Projects | Organizar tareas y visualizar el estado del trabajo. |
 | Pull Requests | Documentar los cambios propuestos antes de integrarlos a `main`. |
 
@@ -139,4 +151,4 @@ Estos atributos orientan las decisiones de diseño y validación del SGVI. Su cu
 
 ## Conclusión
 
-El enfoque híbrido propuesto permite organizar el desarrollo del SGVI mediante incrementos, historias de usuario, planificación y controles de calidad. La combinación de documentación, GitHub Projects, Git,
+El enfoque híbrido propuesto permite organizar el desarrollo del SGVI mediante incrementos, historias de usuario, planificación y controles de calidad. La combinación de documentación, GitHub Projects, Git, Pull Requests y criterios de calidad permite mantener la trazabilidad de los cambios y verificar cada incremento antes de integrarlo a la rama principal. La selección se revisará al avanzar el proyecto y podrá ajustarse si cambian sus condiciones.

@@ -1,6 +1,6 @@
-# Planificación del Sprint 1
+# Planificación del Sprint 1 (Sprint Planning)
 
-## 1. Objetivo del Sprint
+## 1. Meta del Sprint (Sprint Goal)
 
 Construir la base del Sistema de Gestión de Ventas e Inventario (SGVI), considerando el inicio de sesión, el registro de productos y el registro de ventas con validación de existencias.
 
@@ -10,7 +10,17 @@ Construir la base del Sistema de Gestión de Ventas e Inventario (SGVI), conside
 **Duración propuesta:** 2 semanas  
 **Responsable:** Cristian Maldonado
 
-## 3. Historias seleccionadas
+## 3. Roles de Scrum
+
+La guía plantea asignar 1 Product Owner, 1 Scrum Master y 2 desarrolladores. Como el proyecto es individual, los tres roles los asume la misma persona y se registran como responsabilidades metodológicas, no como integrantes distintos.
+
+| Rol | Responsabilidad | Asignado a |
+|---|---|---|
+| Product Owner | Priorizar el backlog y aceptar las historias | Cristian Maldonado |
+| Scrum Master | Facilitar el proceso y dar seguimiento al tablero | Cristian Maldonado |
+| Equipo de desarrollo | Diseñar, implementar y probar las historias | Cristian Maldonado |
+
+## 4. Historias seleccionadas
 
 | ID | Historia de usuario | Puntos | Prioridad | Responsable |
 |---|---|---:|---|---|
@@ -19,7 +29,7 @@ Construir la base del Sistema de Gestión de Ventas e Inventario (SGVI), conside
 | HU-04 | Registrar ventas | 8 | Alta | Cristian Maldonado |
 | **Total** | | **18** | | |
 
-## 4. Definition of Ready (DoR)
+## 5. Definition of Ready (DoR)
 
 Una historia estará lista para iniciar cuando:
 
@@ -28,7 +38,7 @@ Una historia estará lista para iniciar cuando:
 - Tenga una estimación en Story Points.
 - Sus dependencias y requisitos de datos estén identificados.
 
-## 5. Definition of Done (DoD)
+## 6. Definition of Done (DoD)
 
 Una historia se considerará terminada cuando:
 
@@ -38,7 +48,7 @@ Una historia se considerará terminada cuando:
 - Los cambios estén documentados y registrados mediante Git.
 - Se haya solicitado revisión mediante un Pull Request. La revisión independiente deberá realizarse cuando se disponga de otra persona revisora.
 
-## 6. Organización del trabajo
+## 7. Organización del trabajo
 
 Las historias se gestionarán mediante GitHub Projects. El tablero permitirá identificar las historias pendientes, las preparadas para el Sprint, las que están en progreso y las terminadas.
 
