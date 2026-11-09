@@ -1,4 +1,8 @@
-# Paradigma de Trabajo del Proyecto
+# PARADIGMA DE INGENIERÍA DE SOFTWARE DEL PROYECTO
+
+**Asignatura:** Ingeniería de Software | **Carrera:** Ingeniería en Datos e Inteligencia Artificial  
+**Proyecto:** Sistema de Gestión de Ventas e Inventario (SGVI)  
+**Integrantes:** Cristian Maldonado (desarrollo individual)
 
 ## 1. Métodos
 

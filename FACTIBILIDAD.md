@@ -6,7 +6,7 @@
 
 ## 1. Factibilidad Técnica
 
-- **Infraestructura y Lenguajes:** El proyecto se gestionará mediante Git y GitHub. El desarrollo del sistema contempla módulos para registrar productos, clientes y ventas, controlar el inventario y consultar reportes. Las tecnologías definitivas de implementación deberán confirmarse conforme avance el diseño técnico.
+- **Infraestructura y Lenguajes:** El proyecto se gestionará mediante Git y GitHub. El desarrollo del sistema contempla módulos para registrar productos, clientes y ventas, controlar el inventario y consultar reportes. Se utilizará Python con el framework Flask para la lógica del sistema, HTML, CSS y JavaScript para la interfaz web y MySQL como gestor de base de datos, de acuerdo con lo definido en `docs/CICLO_VIDA.md`. Flake8 se empleará para el análisis estático del código Python.
 - **Experiencia y Capacidades:** El responsable cuenta con experiencia académica en programación, bases de datos, control de versiones y documentación de proyectos de software. El desarrollo individual permite mantener una visión integral del sistema, aunque limita la capacidad disponible para implementar y verificar varias tareas simultáneamente.
 - **Riesgos Tecnológicos:** Los principales riesgos son los errores en la lógica de ventas e inventario, la pérdida o inconsistencia de datos, los problemas de integración entre módulos y las limitaciones de tiempo. Se reducirán mediante control de versiones, validaciones, pruebas y documentación técnica.
 
