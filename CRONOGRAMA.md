@@ -5,6 +5,8 @@
 **Periodo:** Semanas 6 a 15 de 2026  
 **Responsable:** Cristian Maldonado
 
+> Entregable de la Práctica 6. La versión consolidada de la Unidad 2 está en `FACTIBILIDAD_PLANIFICACION.md`.
+
 ## 1. Desglose de Trabajo (WBS)
 
 | Código | Actividad | Entregable |

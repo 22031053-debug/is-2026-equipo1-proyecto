@@ -27,6 +27,7 @@ El SGVI busca centralizar el registro de productos, clientes, ventas y movimient
 | 4 | Historias de usuario y Sprint 1 | `HISTORIAS_USUARIO.md`, `SPRINT_PLANNING.md` | #30 |
 | 5 | Reporte metodológico (cierre Unidad 1) | `REPORTE_METODOLOGIA.md`, tag `v1.0-u1` | #32 |
 | 6 | Factibilidad, cronograma y SRS IEEE 830 | `FACTIBILIDAD.md`, `CRONOGRAMA.md`, `SRS_IEEE830.md` | #33 |
+| 7 | Práctica integrada U2: análisis y diseño (SRS, UML y base de datos) | `FACTIBILIDAD_PLANIFICACION.md`, `SRS_IEEE830.md`, `MODELADO_UML.md`, `DISEÑO_BD.md`, `database/schema.sql` | Rama `feature/u2-analisis-diseno-integrado` |
 
 ## Flujo de trabajo
 
