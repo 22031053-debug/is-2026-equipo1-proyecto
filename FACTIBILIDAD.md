@@ -4,6 +4,8 @@
 **Equipo:** Equipo 1  
 **Integrantes:** Cristian Maldonado
 
+> Entregable de la Práctica 6. La versión consolidada de la Unidad 2 (con horas-hombre y LFPDPPP) está en `FACTIBILIDAD_PLANIFICACION.md`.
+
 ## 1. Factibilidad Técnica
 
 - **Infraestructura y Lenguajes:** El proyecto se gestionará mediante Git y GitHub. El desarrollo del sistema contempla módulos para registrar productos, clientes y ventas, controlar el inventario y consultar reportes. Se utilizará Python con el framework Flask para la lógica del sistema, HTML, CSS y JavaScript para la interfaz web y MySQL como gestor de base de datos, de acuerdo con lo definido en `docs/CICLO_VIDA.md`. Flake8 se empleará para el análisis estático del código Python.
@@ -20,4 +22,4 @@
 
 - **Impacto en el Usuario Final:** El SGVI busca centralizar la información de productos, clientes, ventas e inventario para facilitar su consulta y seguimiento.
 - **Facilidad de Adopción y Usabilidad:** Se buscará una interfaz clara, formularios con campos comprensibles, validaciones de entrada y mensajes de error útiles. Las funciones se organizarán de acuerdo con las tareas principales del usuario.
-- **Cumplimiento Legal y Normativo:** Se evitará incluir credenciales, contraseñas o tokens en el repositorio. Los datos personales se manejarán únicamente cuando sean necesarios para las funciones definidas, con acceso controlado y respeto a la privacidad. Se verificarán las licencias de las dependencias utilizadas.
+- **Cumplimiento Legal y Normativo:** Se evitará incluir credenciales, contraseñas o tokens en el repositorio. Los datos personales se manejarán únicamente cuando sean necesarios para las funciones definidas, con acceso controlado y respeto a la privacidad. Se verificarán las licencias de las dependencias utilizadas.
